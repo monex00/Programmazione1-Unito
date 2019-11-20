@@ -1,0 +1,13 @@
+1-Completare la classe LibreriaAritmeticRicBozza convertendo in metodi ricorsivi (co-varianti) i seguenti metodi sviluppati per l'aritmetica: piu, meno, sommatoria, fattoriale, pot. 
+Si può partire da una versione iterativa covariante di ogni metodo (con l'indice che guida la ricorsione che decresce) e trasformarla in ricorsiva.
+
+2-Scrivere metodi ricorsivi co-varianti che realizzino le seguenti operazioni di filtro su valori letti da tastiera. 
+	a. Fissato un valore n ≥ 1, leggere n interi, ma stampare a video solo i dispari. 
+	b. Fissati due valori n ≥ 1, e s, leggere n interi, ma stampare a video solo quelli maggiori di s. 
+	c. Fissati due valori n ≥ 1, e s, leggere n interi, ma stampare a video solo quelli che siano il doppio di s. 
+	d. Fissati tre valori n ≥ 1, m ed M, leggere n interi, ma stampare a video solo quelli minori di m o maggiori di M. 
+	e. Fissati tre valori n ≥ 1, m ed M, leggere n interi, ma stampare a video solo quelli nell'intervallo [m,M]. 
+	f. Fissato un valore n ≥ 1, leggere n interi, e calcolarne la media. [Suggerimento: il metodo media(int n) non sarà ricorsivo di per sé ma richiamerà al suo interno un metodo  ricorsivo somma). Oppure 	
+
+
+3-Completare la classe SommaPrimiBozza, seguendo le indicazioni
