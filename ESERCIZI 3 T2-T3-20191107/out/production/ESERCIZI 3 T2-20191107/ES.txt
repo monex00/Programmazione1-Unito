@@ -1,0 +1,29 @@
+1)Completare la classe LibreriaAritmeticaBozza  definendo prima i metodi più semplici e dopo quelli più complessi che richiamano quelli più semplici. Le uniche operazioni primitive consentite
+sono +1 e -1. Di lì si possono incominciare a definire somma e sottrazione. E di lì le altre operazioni.
+Alla fine la classe deve contenere: addizione,  moltiplicazione, elevamento a potenza, sottrazione, quoziente (si veda la nota qui sotto), resto, quadrato.
+
+2)Sviluppare i metodi del punto 1), laddove possibile, in versione co-variante (indice che guida l'iterazione decrescente) e poi contro-variante (indice che guida l'iterazione crescente).
+
+3) Si completi la classe LibreriaAritmeticaTestBozza in modo da provare il funzionamento di tutti gli operatori. Si completi altresì la classe LibreriaAritmeticaTestProprietà che dimostri che le operazioni implementate
+soddisfano le proprietà relative (proprietà commutativa, associativa, distributiva).
+
+
+4)Sviluppare una classe SomProd che contiene metodi per calcolare sommatorie "interessanti" come la sommatoria dei primi n numeri primi. Si facciano 2 versioni: 1 metodo solo che fa tutto il lavoro,
+un metodo che richiami un altro metodo che verifichi se un intero è primo.
+Progettazione della relativa classe di testing.
+
+5)Si sviluppi un metodo stampaPitagorica che stampi a video la tavola pitagorica. Versione col while e col for.
+
+
+6)Scrivere un programma che calcoli e stampi il massimo di una sequenza di numeri interi strettamente maggiori di 0,
+letta da tastiera (stdin) mediante metodi della classe SIn e terminata dal numero 0.
+
+
+
+
+
+NOTA: La divisione intera fra due numeri può essere vista come una sottrazione ripetuta.
+Dato un dividendo, sottraggo il divisore fino a quando non ottengo un numero minore del divisore stesso.
+Il numero di sottrazioni è il quoziente, il numero che rimane è il resto. Esempio:
+dividendo = 37, divisore =8. 37 -8 = 29 → 29 -8 = 21 → 21 -8 = 13 → 13 -8 = 5 Quoziente = 4, Resto = 5.
+Si veda il file StampaCalcoloQuoziente.pdf su Ilearn, settimana corrente.

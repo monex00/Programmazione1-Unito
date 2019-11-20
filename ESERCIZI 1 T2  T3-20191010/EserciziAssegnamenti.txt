@@ -1,0 +1,14 @@
+﻿Esercizio 1 
+Scrivere un semplice programma Java che chieda all’utente di inserire
+due interi e successivamente stampi a video il valore della somma. Usare il metodo readInt() della classe SIn. 
+Si usino tre variabili di tipo opportuno.
+
+Esercizio 2   
+Usando il metodo readLine() della classe SIn chiedere all'utente di inserire una stringa e poi ristamparla a video.
+
+Esercizio 3
+Scrivere un insieme di istruzioni che scambi il valore di due variabili booleane
+
+Esercizio 4
+Scrivere un programma che scambi tra loro i valori di 4 variabili intere in modo che v1'=v2, v2'=v3, v3'=v4, v4'=v1
+

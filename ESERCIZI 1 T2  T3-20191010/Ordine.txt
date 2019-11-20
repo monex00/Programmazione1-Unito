@@ -1,0 +1,17 @@
+Scrivere una classe Ordine Con un main tale che:
+date tre variabili intere v1,v2,v3, ne scambi i valori in modo tale che alla fine v1 <= v2 <= v3
+
+ESEMPIO:
+
+v1	v2	v3		v1	v2	v3		v1	v2	v3
+5	3	1 	--> 3	5	1	-->	3	1	5
+^					^					^
+
+è necessaria una ulteriore serie di confronti:
+
+v1	v2	v3		v1	v2	v3
+3	1	5	-->	1	3	5
+^					^
+
+non è più necessario confrontare v2 e v3 perché v3, dopo la prima serie di confronti, contiene
+il valore massimo.

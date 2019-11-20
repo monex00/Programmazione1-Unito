@@ -1,0 +1,13 @@
+2) Scrivere una classe EserciziBooleani che contenga un main che:
+
+	a) dati due interi, stampi true se il primo intero è multiplo del secondo, false altrimenti;
+
+	b) dato un intero (un voto), stampi true se tale intero è compreso fra 1 e 30 (inclusi), false altrimenti;
+
+	c) dati due booleani b1 e b2, stampi a video il booleano false, se b1 e b2 sono entrambi veri, true altrimenti;
+
+	d) dati due interi, stampi a video il massimo; se sono uguali stampi a video "I due valori sono uguali".
+
+	e) dati tre interi, stampi a video il massimo (si usi una variabile di supporto max);
+
+	f) dati tre interi, stampi a video true se questi sono ordinati in modo crescente
