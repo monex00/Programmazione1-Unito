@@ -1,4 +1,5 @@
 git init
 git add .
+git remote add origin https://github.com/monex00/Programmazione1-Unito.git
 git commit -m ""
 git push -f origin master
