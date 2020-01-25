@@ -157,4 +157,22 @@ public class Simulazione {
 		}
 	}
 
+	//sempre lo stesso ex ma covariante
+
+	public static void exxDueCov(int[] a){
+		exxDueCov(a, a.length - 1);
+	}
+
+	private static void exxDueCov(int[] a,int i){
+		if (i < 0){
+
+		}else{
+			if((i % 2 ) == 0){
+				if(i+1 != a.length) {
+					a[i] = a[i] + a[i + 1];
+				}
+			}
+			exxDueCov(a,i - 1);
+		}
+	}
 }
